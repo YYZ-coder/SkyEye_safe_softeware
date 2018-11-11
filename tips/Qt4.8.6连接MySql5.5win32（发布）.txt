@@ -1,0 +1,37 @@
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+----------------------2017-3-23-note-by-cherry.zhang------------------------------
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+
+首先需要使用#include <QtSql>就得在.pro文件中写上QT   += sql。
+
+同时，用QtCreator时必须是release版本。
+
+在main.cpp中加载.\plugins\sqldrivers\..的驱动.dll文件
+
+
+	QCoreApplication a(argc, argv);
+        //加载plugins\sqldrivers中的数据库驱动
+        QString strLibPath(
+                QDir::toNativeSeparators(
+                    QCoreApplication::applicationDirPath())+QDir::separator()+"plugins");
+        a.addLibraryPath(strLibPath);
+
+
+exe目录下，需要
+libgcc_s_dw2-1.dll,
+libmysql.dll,
+libstdc++-6.dll,
+libwinpthread-1.dll,
+QtCore4.dll,
+QtSql4.dll
+这几个与Qt版本相符的dll。
+
+然后在plugins\sqldrivers中添加已经编译好的mysql驱动文件
+libmysql.dll,
+libqsqlmysql4.a,
+libqsqlmysqld4.a,
+qsqlmysql4.dll,
+qsqlmysqld4.dll
+

@@ -1,0 +1,573 @@
+﻿生成启动时间为 2017/5/5 22:01:50。
+     1>项目“F:\项目\AAA---Final_Sys\WFP\WFP\WFP_Filter\WFP_Filter.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>StampInf:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\stampinf.exe -d "*" -a "x86" -v "*" -k "1.11" -u "1.11.0" -f Win7Release\WFP_Filter.inf 
+         Stamping Win7Release\WFP_Filter.inf [Version] section with DriverVer=05/05/2017,22.1.51.413
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IWin7Release\ /Zi /nologo /W1 /WX- /Ox /Os /Oy- /D NDIS /D _X86_=1 /D i386=1 /D STD_CALL /D _WIN32_WINNT=0x0601 /D WINVER=0x0601 /D WINNT=1 /D NTDDI_VERSION=0x06010000 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR- /Fo"Win7Release\\" /Fd"Win7Release\vc120.pdb" /Gz /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /FI"C:\Program Files (x86)\Windows Kits\8.1\Include\Shared\warning.h" /analyze- /errorReport:prompt /kernel -cbstring  /d1nodatetime /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+ DataLayer.c Initial.c IoCtrl.c EstablishedLayer.c Rule.c
+         DataLayer.c
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2121): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2121): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2122): warning C4142: 类型的良性重定义
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2122): error C2370: “UINT32”: 重定义；不同的存储类
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h(76) : 参见“UINT32”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2122): error C2146: 语法错误: 缺少“;”(在标识符“queryFlags”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2123): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2124): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2145): error C2146: 语法错误: 缺少“)”(在标识符“netBufferList”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2145): error C2081: “PNET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2145): error C2061: 语法错误: 标识符“netBufferList”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2145): error C2059: 语法错误:“;”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2146): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2345): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2345): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2345): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2346): error C2371: “BOOLEAN”: 重定义；不同的基类型
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntdef.h(1477) : 参见“BOOLEAN”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2346): error C2146: 语法错误: 缺少“;”(在标识符“dispatchLevel”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2347): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2359): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2359): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2359): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2360): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2360): error C2040: “netBufferList”:“int **”与“int *”的间接寻址级别不同
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2366): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2366): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2367): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2373): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2373): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2374): error C2040: “NDIS_HANDLE”:“int”与“PVOID”的间接寻址级别不同
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2374): error C2146: 语法错误: 缺少“;”(在标识符“netBufferListPoolHandle”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2375): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2378): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2384): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2384): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2385): warning C4142: 类型的良性重定义
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2385): error C2370: “ULONG”: 重定义；不同的存储类
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntdef.h(630) : 参见“ULONG”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2385): error C2146: 语法错误: 缺少“;”(在标识符“freeCloneFlags”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2386): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2395): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2395): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2395): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2396): error C2040: “NDIS_HANDLE”:“int”与“PVOID”的间接寻址级别不同
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2396): error C2146: 语法错误: 缺少“;”(在标识符“netBufferAndNetBufferListPoolHandle”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2397): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2400): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2416): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2416): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2416): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2417): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2418): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2419): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2431): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2431): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2431): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2432): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2433): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2434): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2442): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2442): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2443): warning C4142: 类型的良性重定义
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2443): error C2370: “ULONG”: 重定义；不同的存储类
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntdef.h(630) : 参见“ULONG”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2443): error C2146: 语法错误: 缺少“;”(在标识符“headerIncludeHeaderLength”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2444): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2455): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2470): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2470): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2470): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2471): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2472): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2473): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2488): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2488): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2488): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2489): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2490): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2491): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2507): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2507): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2507): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2508): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2509): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2510): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2522): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2522): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2522): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2523): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2524): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2525): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2602): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2602): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2603): error C2371: “BOOLEAN”: 重定义；不同的基类型
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntdef.h(1477) : 参见“BOOLEAN”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2603): error C2146: 语法错误: 缺少“;”(在标识符“intendToModify”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2604): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2610): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2610): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2611): error C2371: “BOOLEAN”: 重定义；不同的基类型
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntdef.h(1477) : 参见“BOOLEAN”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2611): error C2146: 语法错误: 缺少“;”(在标识符“dispatchLevel”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2612): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2639): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2639): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2640): error C2040: “HANDLE”:“int”与“void *”的间接寻址级别不同
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2640): error C2143: 语法错误 : 缺少“;”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2641): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2735): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2735): fatal error C1003: 错误计数超过 100；正在停止编译
+         Initial.c
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2121): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2121): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2122): warning C4142: 类型的良性重定义
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2122): error C2370: “UINT32”: 重定义；不同的存储类
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h(76) : 参见“UINT32”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2122): error C2146: 语法错误: 缺少“;”(在标识符“queryFlags”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2123): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2124): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2145): error C2146: 语法错误: 缺少“)”(在标识符“netBufferList”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2145): error C2081: “PNET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2145): error C2061: 语法错误: 标识符“netBufferList”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2145): error C2059: 语法错误:“;”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2146): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2345): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2345): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2345): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2346): error C2371: “BOOLEAN”: 重定义；不同的基类型
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntdef.h(1477) : 参见“BOOLEAN”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2346): error C2146: 语法错误: 缺少“;”(在标识符“dispatchLevel”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2347): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2359): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2359): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2359): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2360): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2360): error C2040: “netBufferList”:“int **”与“int *”的间接寻址级别不同
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2366): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2366): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2367): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2373): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2373): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2374): error C2040: “NDIS_HANDLE”:“int”与“PVOID”的间接寻址级别不同
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2374): error C2146: 语法错误: 缺少“;”(在标识符“netBufferListPoolHandle”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2375): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2378): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2384): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2384): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2385): warning C4142: 类型的良性重定义
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2385): error C2370: “ULONG”: 重定义；不同的存储类
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntdef.h(630) : 参见“ULONG”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2385): error C2146: 语法错误: 缺少“;”(在标识符“freeCloneFlags”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2386): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2395): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2395): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2395): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2396): error C2040: “NDIS_HANDLE”:“int”与“PVOID”的间接寻址级别不同
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2396): error C2146: 语法错误: 缺少“;”(在标识符“netBufferAndNetBufferListPoolHandle”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2397): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2400): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2416): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2416): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2416): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2417): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2418): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2419): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2431): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2431): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2431): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2432): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2433): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2434): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2442): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2442): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2443): warning C4142: 类型的良性重定义
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2443): error C2370: “ULONG”: 重定义；不同的存储类
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntdef.h(630) : 参见“ULONG”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2443): error C2146: 语法错误: 缺少“;”(在标识符“headerIncludeHeaderLength”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2444): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2455): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2470): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2470): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2470): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2471): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2472): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2473): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2488): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2488): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2488): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2489): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2490): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2491): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2507): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2507): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2507): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2508): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2509): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2510): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2522): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2522): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2522): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2523): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2524): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2525): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2602): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2602): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2603): error C2371: “BOOLEAN”: 重定义；不同的基类型
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntdef.h(1477) : 参见“BOOLEAN”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2603): error C2146: 语法错误: 缺少“;”(在标识符“intendToModify”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2604): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2610): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2610): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2611): error C2371: “BOOLEAN”: 重定义；不同的基类型
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntdef.h(1477) : 参见“BOOLEAN”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2611): error C2146: 语法错误: 缺少“;”(在标识符“dispatchLevel”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2612): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2639): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2639): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2640): error C2040: “HANDLE”:“int”与“void *”的间接寻址级别不同
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2640): error C2143: 语法错误 : 缺少“;”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2641): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2735): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2735): fatal error C1003: 错误计数超过 100；正在停止编译
+         IoCtrl.c
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2121): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2121): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2122): warning C4142: 类型的良性重定义
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2122): error C2370: “UINT32”: 重定义；不同的存储类
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h(76) : 参见“UINT32”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2122): error C2146: 语法错误: 缺少“;”(在标识符“queryFlags”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2123): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2124): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2145): error C2146: 语法错误: 缺少“)”(在标识符“netBufferList”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2145): error C2081: “PNET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2145): error C2061: 语法错误: 标识符“netBufferList”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2145): error C2059: 语法错误:“;”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2146): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2345): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2345): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2345): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2346): error C2371: “BOOLEAN”: 重定义；不同的基类型
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntdef.h(1477) : 参见“BOOLEAN”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2346): error C2146: 语法错误: 缺少“;”(在标识符“dispatchLevel”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2347): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2359): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2359): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2359): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2360): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2360): error C2040: “netBufferList”:“int **”与“int *”的间接寻址级别不同
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2366): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2366): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2367): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2373): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2373): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2374): error C2040: “NDIS_HANDLE”:“int”与“PVOID”的间接寻址级别不同
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2374): error C2146: 语法错误: 缺少“;”(在标识符“netBufferListPoolHandle”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2375): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2378): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2384): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2384): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2385): warning C4142: 类型的良性重定义
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2385): error C2370: “ULONG”: 重定义；不同的存储类
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntdef.h(630) : 参见“ULONG”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2385): error C2146: 语法错误: 缺少“;”(在标识符“freeCloneFlags”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2386): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2395): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2395): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2395): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2396): error C2040: “NDIS_HANDLE”:“int”与“PVOID”的间接寻址级别不同
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2396): error C2146: 语法错误: 缺少“;”(在标识符“netBufferAndNetBufferListPoolHandle”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2397): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2400): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2416): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2416): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2416): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2417): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2418): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2419): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2431): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2431): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2431): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2432): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2433): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2434): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2442): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2442): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2443): warning C4142: 类型的良性重定义
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2443): error C2370: “ULONG”: 重定义；不同的存储类
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntdef.h(630) : 参见“ULONG”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2443): error C2146: 语法错误: 缺少“;”(在标识符“headerIncludeHeaderLength”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2444): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2455): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2470): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2470): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2470): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2471): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2472): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2473): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2488): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2488): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2488): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2489): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2490): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2491): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2507): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2507): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2507): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2508): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2509): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2510): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2522): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2522): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2522): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2523): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2524): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2525): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2602): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2602): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2603): error C2371: “BOOLEAN”: 重定义；不同的基类型
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntdef.h(1477) : 参见“BOOLEAN”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2603): error C2146: 语法错误: 缺少“;”(在标识符“intendToModify”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2604): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2610): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2610): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2611): error C2371: “BOOLEAN”: 重定义；不同的基类型
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntdef.h(1477) : 参见“BOOLEAN”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2611): error C2146: 语法错误: 缺少“;”(在标识符“dispatchLevel”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2612): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2639): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2639): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2640): error C2040: “HANDLE”:“int”与“void *”的间接寻址级别不同
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2640): error C2143: 语法错误 : 缺少“;”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2641): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2735): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2735): fatal error C1003: 错误计数超过 100；正在停止编译
+         EstablishedLayer.c
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2121): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2121): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2122): warning C4142: 类型的良性重定义
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2122): error C2370: “UINT32”: 重定义；不同的存储类
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h(76) : 参见“UINT32”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2122): error C2146: 语法错误: 缺少“;”(在标识符“queryFlags”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2123): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2124): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2145): error C2146: 语法错误: 缺少“)”(在标识符“netBufferList”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2145): error C2081: “PNET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2145): error C2061: 语法错误: 标识符“netBufferList”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2145): error C2059: 语法错误:“;”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2146): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2345): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2345): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2345): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2346): error C2371: “BOOLEAN”: 重定义；不同的基类型
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntdef.h(1477) : 参见“BOOLEAN”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2346): error C2146: 语法错误: 缺少“;”(在标识符“dispatchLevel”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2347): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2359): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2359): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2359): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2360): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2360): error C2040: “netBufferList”:“int **”与“int *”的间接寻址级别不同
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2366): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2366): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2367): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2373): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2373): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2374): error C2040: “NDIS_HANDLE”:“int”与“PVOID”的间接寻址级别不同
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2374): error C2146: 语法错误: 缺少“;”(在标识符“netBufferListPoolHandle”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2375): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2378): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2384): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2384): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2385): warning C4142: 类型的良性重定义
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2385): error C2370: “ULONG”: 重定义；不同的存储类
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntdef.h(630) : 参见“ULONG”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2385): error C2146: 语法错误: 缺少“;”(在标识符“freeCloneFlags”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2386): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2395): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2395): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2395): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2396): error C2040: “NDIS_HANDLE”:“int”与“PVOID”的间接寻址级别不同
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2396): error C2146: 语法错误: 缺少“;”(在标识符“netBufferAndNetBufferListPoolHandle”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2397): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2400): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2416): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2416): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2416): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2417): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2418): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2419): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2431): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2431): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2431): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2432): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2433): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2434): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2442): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2442): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2443): warning C4142: 类型的良性重定义
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2443): error C2370: “ULONG”: 重定义；不同的存储类
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntdef.h(630) : 参见“ULONG”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2443): error C2146: 语法错误: 缺少“;”(在标识符“headerIncludeHeaderLength”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2444): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2455): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2470): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2470): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2470): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2471): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2472): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2473): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2488): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2488): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2488): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2489): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2490): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2491): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2507): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2507): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2507): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2508): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2509): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2510): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2522): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2522): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2522): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2523): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2524): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2525): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2602): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2602): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2603): error C2371: “BOOLEAN”: 重定义；不同的基类型
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntdef.h(1477) : 参见“BOOLEAN”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2603): error C2146: 语法错误: 缺少“;”(在标识符“intendToModify”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2604): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2610): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2610): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2611): error C2371: “BOOLEAN”: 重定义；不同的基类型
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntdef.h(1477) : 参见“BOOLEAN”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2611): error C2146: 语法错误: 缺少“;”(在标识符“dispatchLevel”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2612): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2639): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2639): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2640): error C2040: “HANDLE”:“int”与“void *”的间接寻址级别不同
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2640): error C2143: 语法错误 : 缺少“;”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2641): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2735): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2735): fatal error C1003: 错误计数超过 100；正在停止编译
+         Rule.c
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2121): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2121): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2122): warning C4142: 类型的良性重定义
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2122): error C2370: “UINT32”: 重定义；不同的存储类
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h(76) : 参见“UINT32”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2122): error C2146: 语法错误: 缺少“;”(在标识符“queryFlags”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2123): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2124): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2145): error C2146: 语法错误: 缺少“)”(在标识符“netBufferList”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2145): error C2081: “PNET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2145): error C2061: 语法错误: 标识符“netBufferList”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2145): error C2059: 语法错误:“;”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2146): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2345): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2345): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2345): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2346): error C2371: “BOOLEAN”: 重定义；不同的基类型
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntdef.h(1477) : 参见“BOOLEAN”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2346): error C2146: 语法错误: 缺少“;”(在标识符“dispatchLevel”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2347): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2359): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2359): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2359): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2360): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2360): error C2040: “netBufferList”:“int **”与“int *”的间接寻址级别不同
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2366): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2366): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2367): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2373): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2373): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2374): error C2040: “NDIS_HANDLE”:“int”与“PVOID”的间接寻址级别不同
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2374): error C2146: 语法错误: 缺少“;”(在标识符“netBufferListPoolHandle”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2375): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2378): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2384): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2384): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2385): warning C4142: 类型的良性重定义
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2385): error C2370: “ULONG”: 重定义；不同的存储类
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntdef.h(630) : 参见“ULONG”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2385): error C2146: 语法错误: 缺少“;”(在标识符“freeCloneFlags”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2386): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2395): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2395): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2395): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2396): error C2040: “NDIS_HANDLE”:“int”与“PVOID”的间接寻址级别不同
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2396): error C2146: 语法错误: 缺少“;”(在标识符“netBufferAndNetBufferListPoolHandle”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2397): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2400): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2416): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2416): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2416): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2417): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2418): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2419): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2431): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2431): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2431): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2432): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2433): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2434): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2442): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2442): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2443): warning C4142: 类型的良性重定义
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2443): error C2370: “ULONG”: 重定义；不同的存储类
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntdef.h(630) : 参见“ULONG”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2443): error C2146: 语法错误: 缺少“;”(在标识符“headerIncludeHeaderLength”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2444): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2455): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2470): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2470): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2470): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2471): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2472): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2473): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2488): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2488): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2488): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2489): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2490): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2491): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2507): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2507): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2507): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2508): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2509): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2510): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2522): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2522): error C2081: “NET_BUFFER_LIST”: 形参表中的名称非法
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2522): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2523): error C2146: 语法错误: 缺少“;”(在标识符“completionFn”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2524): error C2059: 语法错误:“类型”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2525): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2602): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2602): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2603): error C2371: “BOOLEAN”: 重定义；不同的基类型
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntdef.h(1477) : 参见“BOOLEAN”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2603): error C2146: 语法错误: 缺少“;”(在标识符“intendToModify”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2604): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2610): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2610): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2611): error C2371: “BOOLEAN”: 重定义；不同的基类型
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntdef.h(1477) : 参见“BOOLEAN”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2611): error C2146: 语法错误: 缺少“;”(在标识符“dispatchLevel”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2612): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2639): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2639): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2640): error C2040: “HANDLE”:“int”与“void *”的间接寻址级别不同
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2640): error C2143: 语法错误 : 缺少“;”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2641): error C2059: 语法错误:“)”
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2735): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\KM\fwpsk.h(2735): fatal error C1003: 错误计数超过 100；正在停止编译
+         正在生成代码...
+     1>已完成生成项目“F:\项目\AAA---Final_Sys\WFP\WFP\WFP_Filter\WFP_Filter.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.94

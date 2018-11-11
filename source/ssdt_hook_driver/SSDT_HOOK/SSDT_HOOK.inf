@@ -1,0 +1,76 @@
+;
+; SSDT_HOOK.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class	= 
+ClassGuid=
+Provider=
+DriverVer=04/25/2017,21.35.48.363
+CatalogFile=SSDT_HOOK.cat
+
+[DefaultInstall]
+OptionDesc          = %SSDT_HOOKServiceDesc%
+Copyfiles           = SSDT_HOOK.DriverFiles
+addREG              = GC
+
+[GC]
+HKLM,%SSDT_HOOKRegistry%,,"0x00010001","1"
+
+[Install.Services]
+AddService=SSDT_HOOK,,SSDT_HOOK_Service_Inst
+
+[SSDT_HOOK_Service_Inst]
+DisplayName     = %SSDT_HOOKServiceDesc%
+ServiceType     = 1 ;SERVICE_KERNEL_DRIVER
+StartType       = 1 ;SERVICE_SYSTEM_START
+ErrorControl    = 1 ;SERVICE_ERROR_NORMAL
+ServiceBinary   = %12%\SSDT_HOOK.sys
+Description     = %SSDT_HOOKServiceDesc%
+
+[DefaultUninstall]
+DelFiles   = SSDT_HOOK.DriverFiles
+
+[DefaultUninstall.Services]
+DelService = SSDT_HOOK,0x200
+
+[SSDT_HOOK.Service]
+DisplayName      = %SSDT_HOOKServiceName%
+Description      = %SSDT_HOOKServiceDesc%
+ServiceBinary    = %12%\SSDT_HOOK.sys  	
+ServiceType      = 1					;SERVICE_KERNEL_DRIVER
+StartType        = 1					;SERVICE_SYSTEM_START
+ErrorControl     = 1					;SERVICE_ERROR_NORMAL
+
+[SSDT_HOOK.DriverFiles]
+SSDT_HOOK.sys,,,0x00000040   ; COPYFLG_OVERWRITE_OLDER_ONLY
+
+
+[SourceDisksNames]
+1 = %SSDT_HOOKServiceDesc%,"",,
+
+[SourceDisksFiles]
+SSDT_HOOK.sys = 1
+
+[DestinationDirs]
+DefaultDestDir = 12
+SSDT_HOOK.copyfiles.sys  = 12
+
+[SSDT_HOOK.copyfiles.sys]
+SSDT_HOOK.sys,,,2
+
+
+[Manufacturer]
+%ManufacturerName%=Standard,NTx86
+
+[Standard.NTx86]
+
+
+[Strings]
+ManufacturerName=""
+ClassName=""
+DiskName="SSDT_HOOK Source Disk"
+SSDT_HOOKServiceDesc  = "SSDT HOOK"
+SSDT_HOOKServiceName  = "SSDT"
+SSDT_HOOKRegistry     = "system\currentcontrolset\services\SSDT"

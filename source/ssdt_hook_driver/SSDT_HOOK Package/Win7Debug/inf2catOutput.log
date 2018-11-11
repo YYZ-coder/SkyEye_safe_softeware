@@ -1,0 +1,10 @@
+Inf2Cat Tool Output:
+........................
+Signability test failed.
+
+Errors:
+22.9.7: DriverVer set to incorrect date (postdated DriverVer not allowed) in \ssdt_hook.inf.  The current date (UTC) is 3/23/2017.
+Try using /USELOCALTIME when DriverVer is postdated
+
+Warnings:
+None

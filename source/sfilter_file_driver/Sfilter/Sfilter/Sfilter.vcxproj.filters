@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{39f46bb7-221d-43d2-a474-966836a3fcc5}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{a2efa59c-44bf-4952-a615-38d00ef2b2cd}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{d5c1f630-ed5a-4f07-91f8-d392bf6ba15e}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VisualDDKHelpers.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CareFile.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common_Function.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBAC_ControlLogic.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="HashTable_Function.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Integration_Function.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sfilter.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="CareFileHashTable_Function.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common_Function.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBAC_ControlLogic.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Integration_Function.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="OperationInformation_Function.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="OperationResult_Function.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

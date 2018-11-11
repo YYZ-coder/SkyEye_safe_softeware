@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>owl_icon.ico</file>
+        <file>owl0.ico</file>
+        <file>owl.jpg</file>
+        <file>owl_sysTray.ico</file>
+        <file>X_red.ico</file>
+    </qresource>
+</RCC>

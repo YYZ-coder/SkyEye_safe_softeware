@@ -1,0 +1,25 @@
+﻿生成启动时间为 2017/5/5 20:11:31。
+     1>项目“C:\Users\Yue\Desktop\SSDT_HOOK Package\SSDT_HOOK Package.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>Inf2Cat:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\inf2cat.exe /os:7_x86 /USELOCALTIME /driver:"C:\Users\Yue\Desktop\SSDT_HOOK\Win7Debug\SSDT_HOOK Package\\" 
+         ........................
+         Signability test complete.
+         
+         Errors:
+         None
+         
+         Warnings:
+         None
+         
+         Catalog generation complete.
+         C:\Users\Yue\Desktop\SSDT_HOOK\Win7Debug\SSDT_HOOK Package\ssdt_hook.cat
+       DriverTestSign:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\signtool.exe sign /ph /sha1 "C6EF03615496E838B380295C06F372BCB5AA0109" 
+         Done Adding Additional Store
+         Successfully signed: C:\Users\Yue\Desktop\SSDT_HOOK\Win7Debug\SSDT_HOOK Package\ssdt_hook.cat
+         
+     1>已完成生成项目“C:\Users\Yue\Desktop\SSDT_HOOK Package\SSDT_HOOK Package.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.77

@@ -1,0 +1,70 @@
+;
+; WFP_Filter.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=ActivityMonitor
+ClassGuid=
+Provider=
+DriverVer=05/05/2017,22.1.51.413
+CatalogFile=WFP_Filter.cat
+
+[DestinationDirs]
+DefaultDestDir	        = 12
+WFP_Filter.DriverFiles      = 12 			;%windir%\system32\drivers
+
+;;
+;; Default install sections
+;;
+[DefaultInstall]
+OptionDesc          = %WFP_FilterServiceDesc%
+CopyFiles           = WFP_Filter.DriverFiles
+
+[DefaultInstall.Services]
+AddService          = %WFP_FilterServiceName%,,WFP_Filter.Service
+
+;;
+;; Default uninstall sections
+;;
+
+[DefaultUninstall]
+DelFiles   = WFP_Filter.DriverFiles
+
+[DefaultUninstall.Services]
+DelService = WFP_Filter,0x200		; Flags note to stop service first
+
+;
+; Services Section
+;
+
+[WFP_Filter.Service]
+DisplayName      = %WFP_FilterServiceName%
+Description      = %WFP_FilterServiceDesc%
+ServiceBinary    = %12%\WFP_Filter.sys  	;%windir%\system32\drivers\WFP_Filter.sys
+ServiceType      = 1					;SERVICE_KERNEL_DRIVER
+StartType        = 1					;SERVICE_DEMAND_START
+ErrorControl     = 1					;SERVICE_ERROR_NORMAL
+AddReg = 
+
+;
+; Copy Files
+;
+
+[WFP_Filter.DriverFiles]
+WFP_Filter.sys,,,0x00000040   ; COPYFLG_OVERWRITE_OLDER_ONLY
+
+[SourceDisksNames]
+1 = %DiskId1%,,,""
+[SourceDisksFiles]
+WFP_Filter.sys = 1,,
+
+;;
+;; String Section
+;;
+[Strings]
+Msft              = "Microsoft Corporation"
+WFP_FilterServiceDesc  = "MSN Monitor Driver"
+WFP_FilterServiceName  = "WFP_Filter"
+WFP_FilterRegistry     = "system\currentcontrolset\services\WFP_Filter"
+

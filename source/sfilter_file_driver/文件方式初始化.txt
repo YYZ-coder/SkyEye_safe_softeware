@@ -1,0 +1,36 @@
+2017/4/1  from  steven.du
+
+
+在使用文本文件作为内核信息的初始化来源的时候，以下面的结构为数据存储结构：
+
+   typedef struct _CareFile
+{
+	LIST_ENTRY entry;
+	UNICODE_STRING filename;
+	UNICODE_STRING filepath;
+    INT            secutiry_level;
+	ULONG          Owner;
+}CareFile,*PCareFile;
+
+在文件中对应的数据书写的格式如下：
+
+##filename:myname.txt%filepath:c:\\...%security_level:1$$
+
+系统要求是不允许文件名出现以下的符号的:
+
+ \/?:*<>|
+
+所以更改为：
+
+开始符号:**
+结束符号:??
+值对分隔符:|
+值和对的分隔符: :
+
+具体说明如下：
+  开始符号:两个连续的#:##;结束符号：两个连续的$:$$;中间每个值对以%为分割;值和名之间用:隔开。
+
+具体算法：
+
+  从头开始扫描，如果遇到开始符号，进入循环（循环遇到结束符号或者超过文件长度或者超过值对的数量），出错进入相应的
+  处理.

@@ -1,0 +1,23 @@
+﻿Build started 2017/4/9 21:52:32.
+     1>Project "d:\documents\visual studio 2010\Projects\Sfilter\Sfilter\Sfilter.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Sfilter.lastbuildstate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\WINDDK\7600.16385.1\inc\ddk /IC:\WINDDK\7600.16385.1\inc\api /IC:\WINDDK\7600.16385.1\inc\crt /Zi /nologo /W1 /WX- /Od /Oy- /D WIN32 /D _CONSOLE /D _X86_ /D _DDK_ /D _DEBUG /D DBG=1 /X /Gm /MTd /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Yc"StdAfx.h" /Fp"Debug\Sfilter.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gz /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\WINDDK\7600.16385.1\inc\ddk /IC:\WINDDK\7600.16385.1\inc\api /IC:\WINDDK\7600.16385.1\inc\crt /Zi /nologo /W1 /WX- /Od /Oy- /D WIN32 /D _CONSOLE /D _X86_ /D _DDK_ /D _DEBUG /D DBG=1 /X /Gm /MTd /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Yu"StdAfx.h" /Fp"Debug\Sfilter.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gz /TP /analyze- /errorReport:prompt CareFileHashTable_Function.cpp Common_Function.cpp DBAC_ControlLogic.cpp Integration_Function.cpp OperationInformation_Function.cpp OperationResult_Function.cpp Sfilter.cpp
+         Sfilter.cpp
+     1>Sfilter.cpp(2448): error C2084: function 'NTSTATUS SfEnumerateFileSystemVolumes(PDEVICE_OBJECT,PUNICODE_STRING)' already has a body
+                 d:\documents\visual studio 2010\projects\sfilter\sfilter\stdafx.h(223) : see previous definition of 'SfEnumerateFileSystemVolumes'
+         OperationResult_Function.cpp
+         OperationInformation_Function.cpp
+         Integration_Function.cpp
+         DBAC_ControlLogic.cpp
+         Common_Function.cpp
+         CareFileHashTable_Function.cpp
+         Generating Code...
+     1>Done Building Project "d:\documents\visual studio 2010\Projects\Sfilter\Sfilter\Sfilter.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.60

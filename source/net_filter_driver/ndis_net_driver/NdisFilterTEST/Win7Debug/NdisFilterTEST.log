@@ -1,0 +1,38 @@
+﻿生成启动时间为 2017/5/6 22:37:30。
+     1>项目“F:\项目\AAA---Final_Sys\NDIS\NdisFilterTEST\NdisFilterTEST.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>StampInf:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\stampinf.exe -d "*" -a "x86" -v "*" -k "1.11" -u "1.11.0" -f Win7Debug\NdisFilterTEST.inf 
+         Stamping Win7Debug\NdisFilterTEST.inf [Version] section with DriverVer=05/06/2017,22.37.31.777
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.. /I. /I.. /I. /IWin7Debug\ /Zi /nologo /W0 /WX- /Od /Oi /Oy- /D _X86_=1 /D i386=1 /D STD_CALL /D DEPRECATE_DDK_FUNCTIONS=1 /D MSC_NOOPT /D _WIN32_WINNT=0x0601 /D WINVER=0x0601 /D WINNT=1 /D NTDDI_VERSION=0x06010000 /D DBG=1 /D NDIS_WDM=1 /D NDIS620=1 /D NDIS_WDM=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR- /Yc"precomp.h" /Fp"Win7Debug\NdisFilterTEST.pch" /Fo"Win7Debug\\" /Fd"Win7Debug\vc120.pdb" /Gz /wd4748 /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /wd4201 /wd4214 /FI"C:\Program Files (x86)\Windows Kits\8.1\Include\Shared\warning.h" /analyze- /errorReport:prompt /kernel -cbstring /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+ precomp.c
+         precomp.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.. /I. /IWin7Debug\ /Zi /nologo /W0 /WX- /Od /Oi /Oy- /D _X86_=1 /D i386=1 /D STD_CALL /D DEPRECATE_DDK_FUNCTIONS=1 /D MSC_NOOPT /D _WIN32_WINNT=0x0601 /D WINVER=0x0601 /D WINNT=1 /D NTDDI_VERSION=0x06010000 /D DBG=1 /D NDIS_WDM=1 /D NDIS620=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR- /Yu"precomp.h" /Fp"Win7Debug\NdisFilterTEST.pch" /Fo"Win7Debug\\" /Fd"Win7Debug\vc120.pdb" /Gz /wd4748 /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /wd4201 /wd4214 /FI"C:\Program Files (x86)\Windows Kits\8.1\Include\Shared\warning.h" /analyze- /errorReport:prompt /kernel -cbstring /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+ AbrtBlack.c AbrtNBL.c AbrtOID.c filter.c device.c flt_dbg.c
+         AbrtBlack.c
+         AbrtNBL.c
+         AbrtOID.c
+         filter.c
+         device.c
+         flt_dbg.c
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _X86_=1 /D i386=1 /D STD_CALL /D DEPRECATE_DDK_FUNCTIONS=1 /D MSC_NOOPT /D _WIN32_WINNT=0x0601 /D WINVER=0x0601 /D WINNT=1 /D NTDDI_VERSION=0x06010000 /D DBG=1 /D "SMP_ID=\\\"{8b1800b9-d017-4029-9785-13ef5e5b328e}\\\"" /l"0x0409" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\UM" /IWin7Debug\ /I.. /I. /nologo /fo"Win7Debug\filter.res" filter.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\项目\AAA---Final_Sys\NDIS\NdisFilterTEST\Win7Debug\NdisFilterTEST.sys" /VERSION:"6.3" /INCREMENTAL:NO /NOLOGO /WX /SECTION:"INIT,d" "C:\Program Files (x86)\Windows Kits\8.1\lib\win7\KM\x86\memcmp.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\win7\KM\x86\BufferOverflowK.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\win7\KM\x86\ntoskrnl.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\win7\KM\x86\hal.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\win7\KM\x86\wmilib.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\win7\KM\x86\ndis.lib" /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"F:\项目\AAA---Final_Sys\NDIS\NdisFilterTEST\Win7Debug\NdisFilterTEST.pdb" /SUBSYSTEM:NATIVE,"6.01" /Driver /OPT:REF /OPT:ICF /ENTRY:"GsDriverEntry@8" /RELEASE /IMPLIB:"F:\项目\AAA---Final_Sys\NDIS\NdisFilterTEST\Win7Debug\NdisFilterTEST.lib" /MERGE:"_TEXT=.text;_PAGE=PAGE" /MACHINE:X86 /PROFILE /kernel /IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 /osversion:6.3 /pdbcompress /debugtype:pdata Win7Debug\filter.res
+         Win7Debug\AbrtBlack.obj
+         Win7Debug\AbrtNBL.obj
+         Win7Debug\AbrtOID.obj
+         Win7Debug\precomp.obj
+         Win7Debug\filter.obj
+         Win7Debug\device.obj
+         Win7Debug\flt_dbg.obj
+         NdisFilterTEST.vcxproj -> F:\项目\AAA---Final_Sys\NDIS\NdisFilterTEST\Win7Debug\NdisFilterTEST.sys
+       DriverTestSign:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\signtool.exe sign /ph /sha1 "C6EF03615496E838B380295C06F372BCB5AA0109" 
+         Done Adding Additional Store
+         Successfully signed: F:\\AAA---Final_Sys\NDIS\NdisFilterTEST\Win7Debug\NdisFilterTEST.sys
+         
+     1>已完成生成项目“F:\项目\AAA---Final_Sys\NDIS\NdisFilterTEST\NdisFilterTEST.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.77

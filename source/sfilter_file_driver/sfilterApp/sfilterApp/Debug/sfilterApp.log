@@ -1,0 +1,31 @@
+﻿Build started 2017/4/11 19:24:25.
+     1>Project "D:\Documents\Visual Studio 2010\Projects\sfilterApp\sfilterApp\sfilterApp.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\sfilterApp.lastbuildstate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\MySQL\MySQL Server 5.7\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\sfilterApp.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\MySQL\MySQL Server 5.7\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\sfilterApp.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DataBaseFunction.cpp HashTable_Function.cpp sfilterApp.cpp Thread_Function.cpp
+         Thread_Function.cpp
+     1>d:\documents\visual studio 2010\projects\sfilterapp\sfilterapp\thread_function.cpp(161): warning C4018: '<' : signed/unsigned mismatch
+         sfilterApp.cpp
+         HashTable_Function.cpp
+         DataBaseFunction.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\sfilterApp.exe.embed.manifest.res" Debug\sfilterApp_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\Visual Studio 2010\Projects\sfilterApp\Debug\sfilterApp.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Documents\Visual Studio 2010\Projects\sfilterApp\sfilterApp\lib" libmysql.lib mysqlclient.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\sfilterApp.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Documents\Visual Studio 2010\Projects\sfilterApp\Debug\sfilterApp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\Visual Studio 2010\Projects\sfilterApp\Debug\sfilterApp.lib" /MACHINE:X86 Debug\sfilterApp.exe.embed.manifest.res
+         Debug\DataBaseFunction.obj
+         Debug\HashTable_Function.obj
+         Debug\sfilterApp.obj
+         Debug\stdafx.obj
+         Debug\Thread_Function.obj
+     1>sfilterApp.obj : error LNK2019: unresolved external symbol _mysql_init@4 referenced in function _main
+     1>sfilterApp.obj : error LNK2001: unresolved external symbol "struct st_mysql mysql" (?mysql@@3Ust_mysql@@A)
+     1>D:\Documents\Visual Studio 2010\Projects\sfilterApp\Debug\sfilterApp.exe : fatal error LNK1120: 2 unresolved externals
+     1>Done Building Project "D:\Documents\Visual Studio 2010\Projects\sfilterApp\sfilterApp\sfilterApp.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.86

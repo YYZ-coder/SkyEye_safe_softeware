@@ -1,0 +1,20 @@
+﻿生成启动时间为 2016/11/22 15:28:38。
+     1>项目“F:\VS2013_Drivers_prac\SSDT_HOOK Package\SSDT_HOOK Package.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>Inf2Cat:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\inf2cat.exe /os:7_x86 /driver:"F:\VS2013_Drivers_prac\SSDT_HOOK\Win7Release\SSDT_HOOK Package\\" 
+         ........................
+         Signability test complete.
+         
+         Errors:
+         None
+         
+         Warnings:
+         None
+         
+         Catalog generation complete.
+         F:\VS2013_Drivers_prac\SSDT_HOOK\Win7Release\SSDT_HOOK Package\ssdt_hook.cat
+     1>已完成生成项目“F:\VS2013_Drivers_prac\SSDT_HOOK Package\SSDT_HOOK Package.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.76
