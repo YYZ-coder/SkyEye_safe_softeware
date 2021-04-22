@@ -1,47 +1,41 @@
---------------------------------------------------------------------------
---------------------------------------------------------------------------
-----------------------2017-3-29-note-by-cherry.zhang-----------------------------
---------------------------------------------------------------------------
---------------------------------------------------------------------------
 
+é¡¹ç›®æ€»å¼€å‘æ¨¡å—ï¼š
 
-ÏîÄ¿×Ü¿ª·¢Ä£¿é£º
+	Â·UCONabcæ•°æ®åº“æ­å»ºï¼ˆæ–°åž‹è®¿é—®æŽ§åˆ¶æ¨¡åž‹æ­å»ºæ•°æ®åº“)ï¼Œ
+	Â·SFilteræ–‡ä»¶è¿‡æ»¤é©±åŠ¨ï¼ˆæŒ‰ç…§æ–‡ä»¶ç»å¯¹è·¯å¾„å¯¹æ–‡ä»¶è¿›è¡Œæ‰§è¡Œï¼Œè¯»ï¼Œå†™ï¼ŒåŠ å¯†æƒé™æ“ä½œ)ï¼Œ
+	Â·NDISç½‘ç»œé©±åŠ¨ï¼ˆæŒ‰ç…§IP,Protocol,Port,URL,MACç­‰å¯¹æ•°æ®è¿›è¡Œè¿‡æ»¤)ï¼Œ
+	Â·WFPç½‘ç»œé©±åŠ¨ï¼ˆæŒ‰ç…§ç”¨æˆ·è¿›ç¨‹å·å’Œè¿›ç¨‹åå¯¹ç½‘ç»œæ•°æ®è¿›è¡Œè¿‡æ»¤)ï¼Œ
+	Â·SSDTç”¨æˆ·è¿›ç¨‹ä¿æŠ¤é©±åŠ¨ï¼ˆæŒ‰ç…§æå‰æä¾›çš„Appè¿›ç¨‹åï¼Œå¯¹å›ºå®šè¿›ç¨‹è¿›è¡Œæƒé™ä¿æŠ¤)ï¼Œ
+	Â·æ¡Œé¢RWæ•°æ®åº“åº”ç”¨ç¨‹åºï¼ˆä¾ç…§ä¸åŒç”¨æˆ·éœ€è¦å¯¹æŸæ–‡ä»¶,ç½‘å€,IP,ç«¯å£èµ‹äºˆä¸€å®šæƒé™å¹¶å†™å…¥æ•°æ®åº“).
 
-	¡¤UCONabcÊý¾Ý¿â´î½¨£¨ÐÂÐÍ·ÃÎÊ¿ØÖÆÄ£ÐÍ´î½¨Êý¾Ý¿â)£¬
-	¡¤SFilterÎÄ¼þ¹ýÂËÇý¶¯£¨°´ÕÕÎÄ¼þ¾ø¶ÔÂ·¾¶¶ÔÎÄ¼þ½øÐÐÖ´ÐÐ£¬¶Á£¬Ð´£¬¼ÓÃÜÈ¨ÏÞ²Ù×÷)£¬
-	¡¤NDISÍøÂçÇý¶¯£¨°´ÕÕIP,Protocol,Port,URL,MACµÈ¶ÔÊý¾Ý½øÐÐ¹ýÂË)£¬
-	¡¤WFPÍøÂçÇý¶¯£¨°´ÕÕÓÃ»§½ø³ÌºÅºÍ½ø³ÌÃû¶ÔÍøÂçÊý¾Ý½øÐÐ¹ýÂË)£¬
-	¡¤SSDTÓÃ»§½ø³Ì±£»¤Çý¶¯£¨°´ÕÕÌáÇ°Ìá¹©µÄApp½ø³ÌÃû£¬¶Ô¹Ì¶¨½ø³Ì½øÐÐÈ¨ÏÞ±£»¤)£¬
-	¡¤×ÀÃæRWÊý¾Ý¿âÓ¦ÓÃ³ÌÐòAPP£¨ÒÀÕÕ²»Í¬ÓÃ»§ÐèÒª¶ÔÄ³ÎÄ¼þ,ÍøÖ·,IP,¶Ë¿Ú¸³ÓèÒ»¶¨È¨ÏÞ²¢Ð´ÈëÊý¾Ý¿â).
+å®‰è£…è¯´æ˜Žï¼š
 
-°²×°ËµÃ÷£º
+  è½¯ä»¶è¿è¡Œæµ‹è¯•å¹³å°ï¼šwindows 7 x86
 
-  Èí¼þÔËÐÐ²âÊÔÆ½Ì¨£ºwindows 7 x86
+  å¼€å‘å¹³å°ï¼šwindows 8.1 x64ï¼ˆéœ€wdk8.1+VS2013ï¼‰ & windows 7 x64
 
-  ¿ª·¢Æ½Ì¨£ºwindows 8.1 x64£¨Ðèwdk8.1+VS2013£© & windows 7 x64
+  å¼€å‘å·¥å…·ï¼šQtCreator + WDK + VS2013 + VritualBox
 
-  ¿ª·¢¹¤¾ß£ºQtCreator + WDK + VS2013 + VritualBox
+  1.ä½¿ç”¨mysql,åˆ›å»ºæ•°æ®åº“ï¼Œåä¸ºucon,ç„¶åŽå¯¼å…¥è¡¨(/uconsql/ucon.sql),å¯ä»¥ä½¿ç”¨ç›®å½•ä¸‹çš„uconæ–‡ä»¶è¿›è¡Œã€‚
 
-  1.Ê¹ÓÃmysql,´´½¨Êý¾Ý¿â£¬ÃûÎªucon,È»ºóµ¼Èë±í(/uconsql/ucon.sql),¿ÉÒÔÊ¹ÓÃÄ¿Â¼ÏÂµÄuconÎÄ¼þ½øÐÐ¡£
+  2.æ‰“å¼€Cpæ–‡ä»¶å¤¹ï¼Œå…ˆå®‰è£…CredentialProvider,å†å®‰è£…CredentialProviderFilter(æ³¨ï¼šåˆ†åˆ«å°†libmysql.dllï¼ŒMCredentialProvider.dllï¼ŒMCredentialProviderFilter.dllæ”¾å…¥c:/windows/system32ç›®å½•ä¸‹åˆ†åˆ«åŒå‡»Register.regå’ŒRegisterF.regè¿›è¡Œå®‰è£…)
 
-  2.´ò¿ªCpÎÄ¼þ¼Ð£¬ÏÈ°²×°CredentialProvider,ÔÙ°²×°CredentialProviderFilter(×¢£º·Ö±ð½«libmysql.dll£¬MCredentialProvider.dll£¬MCredentialProviderFilter.dll·ÅÈëc:/windows/system32Ä¿Â¼ÏÂ·Ö±ðË«»÷Register.regºÍRegisterF.reg½øÐÐ°²×°)
+  3.åŒå‡»LoadDriver.exe,è¿›è¡Œé©±åŠ¨å®‰è£…(æ³¨ï¼šNDISé©±åŠ¨éœ€è¦å•ç‹¬å®‰è£…ï¼Œæ‰“å¼€ç½‘ç»œå’Œå…±äº«ä¸­å¿ƒ->æ›´æ”¹é€‚é…å™¨è®¾ç½®->ä»¥å¤ªç½‘->å³é”®->å®‰è£…->æœåŠ¡->å¯»æ‰¾NDISé©±åŠ¨æ‰€åœ¨ç›®å½•å¹¶è¿›è¡Œå®‰è£…)
 
-  3.Ë«»÷LoadDriver.exe,½øÐÐÇý¶¯°²×°(×¢£ºNDISÇý¶¯ÐèÒªµ¥¶À°²×°£¬´ò¿ªÍøÂçºÍ¹²ÏíÖÐÐÄ->¸ü¸ÄÊÊÅäÆ÷ÉèÖÃ->ÒÔÌ«Íø->ÓÒ¼ü->°²×°->·þÎñ->Ñ°ÕÒNDISÇý¶¯ËùÔÚÄ¿Â¼²¢½øÐÐ°²×°)
+  4.å¯åŠ¨SkyEyeç¨‹åº,ç¬¬ä¸€æ¬¡å¯åŠ¨éœ€è¦æ³¨å†Œä¿¡æ¯ï¼Œdbnameæ˜¯æ•°æ®åº“åï¼Œè¾“å…¥â€uconâ€œï¼Œå®ŒæˆåŽé‡å¯;
 
-  4.Æô¶¯SkyEye³ÌÐò,µÚÒ»´ÎÆô¶¯ÐèÒª×¢²áÐÅÏ¢£¬dbnameÊÇÊý¾Ý¿âÃû£¬ÊäÈë¡±ucon¡°£¬Íê³ÉºóÖØÆô;
-
-  ×¢£º1.°²×°Ç°¹Ø±ÕÉ±Èí£¡£¡£¡  
-      2.¿ª»úÆ¾¾ÝÓÐÊ±ºò»áÊäÈëÕýÈ·ÃÜÂëºÍÕýÈ·ÕË»§²»ÄÜÕýÈ·µÇÂ½£¬´Ë´¦ÓÐbug£¬Çë¶àÊÔ¼¸´Î¡£
-      3.NDISÇý¶¯ÔÚ/NdisÄ¿Â¼ÏÂ
-      4.¿ª»ú³öÏÖÃ¨Í·Ó¥½çÃæ£¬Èôµã»÷IntroductionÇë¼ÇµÃµã»÷¶Ô»°¿ò°´Å¥¹Ø±Õ,´Ë´¦ÓÐbug£¬Èô³öÏÖÆäËüÎÊÌâÇëÖØÆô¡£
-      5.ÒòÎª¸ÃÈí¼þÊÇÁ½¸öÄ£¿éµÄ½áºÏÌå£¬ÎÄ¼þÏµÍ³Çý¶¯ºÍÍøÂçÏµÍ³Çý¶¯»¥Ïà½»»¥Í¨¹ýpipe´«µÝÐÅÏ¢£¬»á³öÏÖbug¡£µ«ÊÇ¸÷×Ôµ¥¶ÀÔËÐÐ¶¼²»»áÓÐÎÊÌâ¡£
+  æ³¨ï¼š1.å®‰è£…å‰å…³é—­æ€è½¯ï¼ï¼ï¼  
+      2.å¼€æœºå‡­æ®æœ‰æ—¶å€™ä¼šè¾“å…¥æ­£ç¡®å¯†ç å’Œæ­£ç¡®è´¦æˆ·ä¸èƒ½æ­£ç¡®ç™»é™†ï¼Œæ­¤å¤„æœ‰bugï¼Œè¯·å¤šè¯•å‡ æ¬¡ã€‚
+      3.NDISé©±åŠ¨åœ¨/Ndisç›®å½•ä¸‹
+      4.å¼€æœºå‡ºçŽ°çŒ«å¤´é¹°ç•Œé¢ï¼Œè‹¥ç‚¹å‡»Introductionè¯·è®°å¾—ç‚¹å‡»å¯¹è¯æ¡†æŒ‰é’®å…³é—­,æ­¤å¤„æœ‰bugï¼Œè‹¥å‡ºçŽ°å…¶å®ƒé—®é¢˜è¯·é‡å¯ã€‚
+      5.å› ä¸ºè¯¥è½¯ä»¶æ˜¯ä¸¤ä¸ªæ¨¡å—çš„ç»“åˆä½“ï¼Œæ–‡ä»¶ç³»ç»Ÿé©±åŠ¨å’Œç½‘ç»œç³»ç»Ÿé©±åŠ¨äº’ç›¸äº¤äº’é€šè¿‡pipeä¼ é€’ä¿¡æ¯ï¼Œä¼šå‡ºçŽ°bugã€‚ä½†æ˜¯å„è‡ªå•ç‹¬è¿è¡Œéƒ½ä¸ä¼šæœ‰é—®é¢˜ã€‚
 
 --------------------------------------------------------------------------
 
-¡¤¹ØÓÚsfilter project £¨R0ÎÄ¼þÏµÍ³Çý¶¯+R3Ó¦ÓÃ£©³öÏÖµÄ²»ÄÜ±àÒëµÈÎÊÌâÇëÁªÏµ£º
+Â·å…³äºŽsfilter project ï¼ˆR0æ–‡ä»¶ç³»ç»Ÿé©±åŠ¨+R3åº”ç”¨ï¼‰å‡ºçŽ°çš„ä¸èƒ½ç¼–è¯‘ç­‰é—®é¢˜è¯·è”ç³»ï¼š
 
-	¿ª·¢Õß£¨steven.du£©£º2544661922£¨QQ£©
+	å¼€å‘è€…ï¼ˆsteven.duï¼‰ï¼š2544661922ï¼ˆQQï¼‰
 
-¡¤¹ØÓÚÆäËüÑ¹ËõÎÄ¼þ³öÏÖµÄÎÊÌâÇëÁªÏµ£º
+Â·å…³äºŽå…¶å®ƒåŽ‹ç¼©æ–‡ä»¶å‡ºçŽ°çš„é—®é¢˜è¯·è”ç³»ï¼š
 
-	¿ª·¢Õß£¨cherry.zhang£©£º591748932£¨QQ£©
+	å¼€å‘è€…ï¼ˆcherry.zhangï¼‰ï¼š591748932ï¼ˆQQï¼‰
